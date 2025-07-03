@@ -17,7 +17,7 @@ if (logButton) {
       alert("Bienvenido a inventario");
       sessionStorage.setItem("auth", true);
       sessionStorage.setItem("correo", email);
-      window.location = "../../other/riwired.html";
+      window.location = "./other/riwired.html";
     } else {
       alert("Datos incorrectos");
     }
@@ -75,7 +75,7 @@ if (registerButton) {
     };
     localStorage.setItem("users", JSON.stringify(users));
     alert("Usuario creado satisfactoriamente");
-    window.location = "../index.html";
+    window.location = "index.html";
   }
   console.log(users);
 

@@ -120,7 +120,7 @@ const addButton = document.querySelector("#add");
 
 function logout() {
   sessionStorage.setItem("auth", false);
-  window.location = "/index.html";
+  window.location = "./index.html";
 }
 
 addButton.addEventListener("click", function () {
